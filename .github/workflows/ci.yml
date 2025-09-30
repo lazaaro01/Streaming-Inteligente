@@ -32,8 +32,3 @@ jobs:
       # 3. Instalar dependências
       - name: Install dependencies
         run: npm install
-
-
-      # 4. Build do projeto
-      - name: Build Project
-        run: npm run build
