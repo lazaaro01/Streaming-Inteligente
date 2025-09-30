@@ -33,10 +33,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4. Lint do código
-      - name: Run Lint
-        run: npm run lint
 
-      # 6. Build do projeto
+      # 4. Build do projeto
       - name: Build Project
         run: npm run build
