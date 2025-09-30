@@ -1,0 +1,30 @@
+{
+  "name": "streaming-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "bcrypt": "^6.0.0",
+    "graphql": "^16.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "prisma": "^6.16.2",
+    "redis": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.6.0",
+    "@types/redis": "^4.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
